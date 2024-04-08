@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "3.0.2"
+ruby "3.1.3"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.2"
@@ -32,7 +32,11 @@ gem 'sassc'
 
 gem 'sassc-rails'
 
-gem 'devise'
+gem 'bulma-rails', '~> 0.9.3'
+
+gem 'devise', github: 'heartcombo/devise', branch: 'main'
+
+gem 'responders', '~> 3.1.0'
 
 
 # Use Redis adapter to run Action Cable in production
