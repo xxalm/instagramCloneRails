@@ -38,6 +38,8 @@ gem 'devise', github: 'heartcombo/devise', branch: 'main'
 
 gem 'responders', '~> 3.1.0'
 
+gem "font-awesome-sass", "~> 6.5.2"
+
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
