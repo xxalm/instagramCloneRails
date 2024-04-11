@@ -13,7 +13,15 @@
  *= require_tree .
  *= require_self
  */
- 
+
+// Import Bootstrap first
 @import 'bootstrap';
-@import 'custom';
+
+// Import Font Awesome
 @import 'font-awesome';
+
+// Import FilePond
+@import "filepond";
+
+// Import your custom styles
+@import 'custom';
